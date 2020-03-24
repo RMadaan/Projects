@@ -114,7 +114,7 @@ int main()
 	start1 = clock();
 	q1();
 	end1 = clock();
-	double time_tk = (double)(end1-start1) / (double)(CLOCKS_PER_SEC);
+	double time_tk = (double)(end1-start1) / (double)(CLOCKS_PER_SEC);  //Get the time in double data type
 	avg=time_tk;
 	if(time_tk>=45){
 		printf("\nSorry the time slice has expired, as the time consumed is: %.3f seconds\n",time_tk);
