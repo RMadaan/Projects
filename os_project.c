@@ -30,9 +30,9 @@ int main()
 	void login()
 {
 	int hours,minutes,seconds;
-	time_t curr;
+	time_t curr;                 // time_t type variable
 	time(&curr);
-	struct tm *loc = localtime(&curr);
+	struct tm *loc = localtime(&curr);     
 	hours= loc->tm_hour;
 	minutes= loc->tm_min;
 	seconds= loc->tm_sec;
