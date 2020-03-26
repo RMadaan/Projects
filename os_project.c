@@ -87,7 +87,7 @@ int main()
 	void student();
 	void faculty();
 	int input;
-	printf("\n\nPlease type one of the following option numbers to enter a particular category:\n1->Students queries\n2->Faculty queries\n3->Exit\nYour selection:- ");
+	printf("\n\nPlease type one of the following option numbers to enter a particular category or type 3 to exit:\n1->Students queries\n2->Faculty queries\n3->Exit\nYour selection:- ");
 	scanf("%d",&input);
 	if(input==1){student();}
 	else if (input==2){faculty();}
