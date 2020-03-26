@@ -153,7 +153,7 @@ int main()
 {
 	long long int i = 100000;
 	char input [i];
-	printf("\nAllocated Time: 45 seconds\nQ1. what do you mean by an operating system?\n");
+	printf("\nTime Allocated: 45 seconds\nQ1. what do you mean by an operating system?\n");
 	printf("Solution: ");
 	int n;
 	n=read(0,input,i);
@@ -163,7 +163,7 @@ int main()
 {
 	long long int i2 = 100000;
 	char input2 [i2];
-	printf("\nAllocated Time: 30 seconds\nQ2. what do you mean by CPU memory?\n");
+	printf("\nTime Allocated: 30 seconds\nQ2. what do you mean by CPU memory?\n");
 	printf("Solution: ");
 	int n;
 	n=read(0,input2,i2);
@@ -242,7 +242,7 @@ int main()
 {
 	long long int i = 100000;
 	char input [i];
-	printf("\nAllocated Time: 20 seconds\nQ1. what is the registration number of the student named 'Ram gopal'?\n");
+	printf("\nTime Allocated: 20 seconds\nQ1. what is the registration number of the student named 'Ram gopal'?\n");
 	printf("Solution: ");
 	int n;
 	n=read(0,input,i);
@@ -252,7 +252,7 @@ int main()
 {
 	long long int i2 = 100000;
 	char input2 [i2];
-	printf("\nAllocated Time: 15 seconds\nQ2.How many MTE sheets are left unchecked?\n");
+	printf("\nTime Allocated: 15 seconds\nQ2.How many MTE sheets are left unchecked?\n");
 	printf("Solution: ");
 	int n;
 	n=read(0,input2,i2);
@@ -262,7 +262,7 @@ int main()
 {
 	long long int i3 = 100000;
 	char input3 [i3];
-	printf("\nAllocated Time: 25 seconds\nQ3.What is the room number for the OS class?\n");
+	printf("\nTime Allocated: 25 seconds\nQ3.What is the room number for the OS class?\n");
 	printf("Solution: ");
 	int n;
 	n=read(0,input3,i3);
